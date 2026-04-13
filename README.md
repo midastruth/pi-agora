@@ -19,6 +19,7 @@
 ## 当前已收录
 - [pi-skills](./Utility-Developer-Experience/pi-skills/) - 跨多种 agent 生态的 skills 集合仓库，包含搜索、浏览器自动化、转录、VS Code diff、Google CLI 等能力
 - [pi-telegram](./Integration/pi-telegram/) - Telegram 私聊桥接扩展，可把当前 pi 会话接到 Telegram Bot 上
+- [pi-intercom](./Integration/pi-intercom/) - 本地会话间 1:1 通信扩展，支持定向发消息、等待回复与 overlay UI
 - [pi-diff-review](./Command/pi-diff-review/) - 原生 diff 审查窗口扩展，通过 `/diff-review` 收集评审意见并插回 pi 编辑器
 - [pi-model-switch](./Tool/pi-model-switch/) - 为 agent 提供 `switch_model` 工具，可列出、搜索并切换当前会话模型
 - [pi-web-search](./Tool/pi-web-search/) - 提供 `web_search` 与 `url_context` 工具，支持联网搜索与 URL 内容分析
