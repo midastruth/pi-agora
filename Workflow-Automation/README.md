@@ -3,4 +3,4 @@
 这个目录收录偏流程编排、自动执行、多步骤串联的 Pi 扩展。
 
 ## 已收录
-暂无。
+- [pi-interactive-subagents](./pi-interactive-subagents/) - 异步子代理编排扩展，支持多窗格并行执行、结果回灌与 artifact 共享
