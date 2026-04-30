@@ -1,0 +1,22 @@
+{
+  "name": "pi-agora",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Interactive recommendation and installation assistant for curated Pi extensions and skills.",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "pi-skills",
+    "pi-agora",
+    "collection"
+  ],
+  "pi": {
+    "extensions": [
+      "./extensions/pi-agora/index.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*",
+    "typebox": "*"
+  }
+}
