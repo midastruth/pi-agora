@@ -11,6 +11,8 @@
 
 ```bash
 pi install https://github.com/midastruth/pi-agora
+# 或临时安装
+pi -e https://github.com/midastruth/pi-agora
 # 或本地测试
 pi -e /path/to/pi-agora
 ```
@@ -54,7 +56,6 @@ pi -e /path/to/pi-agora
 - [pi-jarvis](./UI-Notification/pi-jarvis/) - `/jarvis` 侧边对话 overlay，为主会话提供独立辅助线程、权限开关与 note/redirect 回传能力
 - [pi-thinking-steps](./UI-Notification/pi-thinking-steps/) - thinking 显示增强扩展，提供 collapsed / summary / expanded 三种终端推理视图
 - [pi-draw](./UI-Notification/pi-draw/) - 通过 `/draw` 或快捷键打开 tldraw 画布，将绘图导出为 PNG 并附加到当前 prompt
-
 ## 说明
 如果后续新增仓库：
 1. 先判断主分类
